@@ -1,41 +1,50 @@
+@import 'variables.sass'
 .app
   position: relative
-  background-color: #c7b5cb
-  height: 100%
+  background-color: $bg-color
   min-height: 100vh
+  height: 100%
 
-  .logo
-    margin: auto 0
+  .header
+    margin: 10px 0
+    height: 15vh
+    min-height: 10vh
+    .logo
+      height: 100%
+      margin: auto 0
+      img
+        height: 100%
+        width: auto
+    .user
+      padding: 10px 0
+      overflow: scroll
+      height: 100%
+      .avatar
+        display: inline-block
+        align-items: center
+        border: white 2px solid
+        border-radius: 50%
+        height: 70px
+        width: 70px
+      .user-info
+        padding: 0
+        margin: 0
+        display: inline-block
 
-.user
-  border: white 1px solid
-  .avatar
-    margin: auto
-    display: inline-flex
-    border: white 2px solid
-    background-color:
-    border-radius: 50%
-    height: 100px
-    width: 100px
-  .user-info
-    position: relative
-    margin: auto 0
-    display: inline-block
+  .body
+    padding-bottom: 10vh
 
-.footer
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  border: white 1px solid
-  background-color: #882ccb
-  color: white
-  font-weight: 300
-  a
-    text-decoration: none
-    color: inherit
+  .footer
+    height: 10vh
+    width: 100%
+    position: absolute
+    bottom: 0
+    border: black 1px dashed
+    background-color: $purpule
+    color: white
+    font-weight: 300
+    a
+      text-decoration: none
+      color: inherit
 
-.navigation
-  display: inline-flex
-  a
-    margin-left: 50%
+
