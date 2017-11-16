@@ -1,0 +1,5 @@
+#top10 .title {
+  text-align: center; }
+
+#top10 .content div {
+  border: dashed 1px black; }

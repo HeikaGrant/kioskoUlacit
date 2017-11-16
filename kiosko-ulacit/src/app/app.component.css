@@ -1,0 +1,44 @@
+.app {
+  position: relative;
+  background-color: #FFECEC;
+  min-height: 100vh;
+  height: 100%; }
+  .app .header {
+    margin: 10px 0;
+    height: 15vh;
+    min-height: 10vh; }
+    .app .header .logo {
+      height: 100%;
+      margin: auto 0; }
+      .app .header .logo img {
+        height: 100%;
+        width: auto; }
+    .app .header .user {
+      padding: 10px 0;
+      overflow: scroll;
+      height: 100%; }
+      .app .header .user .avatar {
+        display: inline-block;
+        align-items: center;
+        border: white 2px solid;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px; }
+      .app .header .user .user-info {
+        padding: 0;
+        margin: 0;
+        display: inline-block; }
+  .app .body {
+    padding-bottom: 10vh; }
+  .app .footer {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: black 1px dashed;
+    background-color: #6a0899;
+    color: white;
+    font-weight: 300; }
+    .app .footer a {
+      text-decoration: none;
+      color: inherit; }
